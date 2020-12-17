@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B0365502589F0B900AE03DB /* FormTypeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B03654F2589F0B900AE03DB /* FormTypeSection.swift */; };
+		8B0365532589F13200AE03DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0365522589F13200AE03DB /* Extensions.swift */; };
+		8B0365562589F16600AE03DB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0365552589F16600AE03DB /* Models.swift */; };
+		8B0365592589F18D00AE03DB /* AppClipCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0365582589F18D00AE03DB /* AppClipCodeGenerator.swift */; };
+		8B06C755258A155B004DC9D0 /* FormStateObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B06C754258A155B004DC9D0 /* FormStateObservableObject.swift */; };
+		8B3DCE062589ED170019613F /* FormColorSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCE052589ED170019613F /* FormColorSection.swift */; };
+		8BB4FDDF2588A51000E37052 /* AppClipCodeGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4FDDE2588A51000E37052 /* AppClipCodeGeneratorApp.swift */; };
+		8BB4FDE12588A51000E37052 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4FDE02588A51000E37052 /* ContentView.swift */; };
+		8BB4FDE32588A51100E37052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB4FDE22588A51100E37052 /* Assets.xcassets */; };
+		8BB4FDE62588A51100E37052 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB4FDE52588A51100E37052 /* Preview Assets.xcassets */; };
+		8BB4FE2A2588C60A00E37052 /* ImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4FE292588C60A00E37052 /* ImageContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B03654F2589F0B900AE03DB /* FormTypeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTypeSection.swift; sourceTree = "<group>"; };
+		8B0365522589F13200AE03DB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8B0365552589F16600AE03DB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8B0365582589F18D00AE03DB /* AppClipCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipCodeGenerator.swift; sourceTree = "<group>"; };
+		8B06C754258A155B004DC9D0 /* FormStateObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormStateObservableObject.swift; sourceTree = "<group>"; };
+		8B3DCE052589ED170019613F /* FormColorSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormColorSection.swift; sourceTree = "<group>"; };
+		8B8C3C8A2589C1DB009F9EE5 /* AppClipCodeGenerator.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = AppClipCodeGenerator.entitlements; sourceTree = "<group>"; };
+		8BB4FDDB2588A51000E37052 /* App Clip Code Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Clip Code Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB4FDDE2588A51000E37052 /* AppClipCodeGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipCodeGeneratorApp.swift; sourceTree = "<group>"; };
+		8BB4FDE02588A51000E37052 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BB4FDE22588A51100E37052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BB4FDE52588A51100E37052 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BB4FDE72588A51100E37052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB4FE292588C60A00E37052 /* ImageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB4FDD82588A51000E37052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B03655B2589F60C00AE03DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BB4FDE02588A51000E37052 /* ContentView.swift */,
+				8B3DCE052589ED170019613F /* FormColorSection.swift */,
+				8B03654F2589F0B900AE03DB /* FormTypeSection.swift */,
+				8BB4FE292588C60A00E37052 /* ImageContainer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B03655C2589F61500AE03DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B0365582589F18D00AE03DB /* AppClipCodeGenerator.swift */,
+				8B0365552589F16600AE03DB /* Models.swift */,
+				8B0365522589F13200AE03DB /* Extensions.swift */,
+				8B06C754258A155B004DC9D0 /* FormStateObservableObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BB4FDD22588A51000E37052 = {
+			isa = PBXGroup;
+			children = (
+				8BB4FDDD2588A51000E37052 /* AppClipCodeGenerator */,
+				8BB4FDDC2588A51000E37052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB4FDDC2588A51000E37052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB4FDDB2588A51000E37052 /* App Clip Code Generator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB4FDDD2588A51000E37052 /* AppClipCodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				8BB4FDDE2588A51000E37052 /* AppClipCodeGeneratorApp.swift */,
+				8B03655C2589F61500AE03DB /* Models */,
+				8B03655B2589F60C00AE03DB /* Views */,
+				8B8C3C8A2589C1DB009F9EE5 /* AppClipCodeGenerator.entitlements */,
+				8BB4FDE22588A51100E37052 /* Assets.xcassets */,
+				8BB4FDE72588A51100E37052 /* Info.plist */,
+				8BB4FDE42588A51100E37052 /* Preview Content */,
+			);
+			path = AppClipCodeGenerator;
+			sourceTree = "<group>";
+		};
+		8BB4FDE42588A51100E37052 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BB4FDE52588A51100E37052 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB4FDDA2588A51000E37052 /* AppClipCodeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB4FDEB2588A51100E37052 /* Build configuration list for PBXNativeTarget "AppClipCodeGenerator" */;
+			buildPhases = (
+				8BB4FDD72588A51000E37052 /* Sources */,
+				8BB4FDD82588A51000E37052 /* Frameworks */,
+				8BB4FDD92588A51000E37052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppClipCodeGenerator;
+			packageProductDependencies = (
+			);
+			productName = AppClipCodeGenerator;
+			productReference = 8BB4FDDB2588A51000E37052 /* App Clip Code Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB4FDD32588A51000E37052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8BB4FDDA2588A51000E37052 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 8BB4FDD62588A51000E37052 /* Build configuration list for PBXProject "AppClipCodeGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB4FDD22588A51000E37052;
+			packageReferences = (
+			);
+			productRefGroup = 8BB4FDDC2588A51000E37052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB4FDDA2588A51000E37052 /* AppClipCodeGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB4FDD92588A51000E37052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB4FDE62588A51100E37052 /* Preview Assets.xcassets in Resources */,
+				8BB4FDE32588A51100E37052 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB4FDD72588A51000E37052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0365562589F16600AE03DB /* Models.swift in Sources */,
+				8B0365592589F18D00AE03DB /* AppClipCodeGenerator.swift in Sources */,
+				8BB4FDE12588A51000E37052 /* ContentView.swift in Sources */,
+				8B0365532589F13200AE03DB /* Extensions.swift in Sources */,
+				8B0365502589F0B900AE03DB /* FormTypeSection.swift in Sources */,
+				8B3DCE062589ED170019613F /* FormColorSection.swift in Sources */,
+				8BB4FDDF2588A51000E37052 /* AppClipCodeGeneratorApp.swift in Sources */,
+				8B06C755258A155B004DC9D0 /* FormStateObservableObject.swift in Sources */,
+				8BB4FE2A2588C60A00E37052 /* ImageContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BB4FDE92588A51100E37052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BB4FDEA2588A51100E37052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8BB4FDEC2588A51100E37052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppClipCodeGenerator/AppClipCodeGenerator.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AppClipCodeGenerator/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AppClipCodeGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.AppClipCodeGenerator;
+				PRODUCT_NAME = "App Clip Code Generator";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8BB4FDED2588A51100E37052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppClipCodeGenerator/AppClipCodeGenerator.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AppClipCodeGenerator/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AppClipCodeGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.AppClipCodeGenerator;
+				PRODUCT_NAME = "App Clip Code Generator";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB4FDD62588A51000E37052 /* Build configuration list for PBXProject "AppClipCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB4FDE92588A51100E37052 /* Debug */,
+				8BB4FDEA2588A51100E37052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB4FDEB2588A51100E37052 /* Build configuration list for PBXNativeTarget "AppClipCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB4FDEC2588A51100E37052 /* Debug */,
+				8BB4FDED2588A51100E37052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BB4FDD32588A51000E37052 /* Project object */;
+}
