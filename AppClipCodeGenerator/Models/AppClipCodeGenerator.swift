@@ -132,7 +132,11 @@ class AppClipCodeGenerator {
     }
     
     private func convertToPNG(sourcePath: String, targetPath: String) -> String? {
+        #if arch(x86_64)
         let path = "/usr/local/bin/rsvg-convert"
+        #elseif arch(arm64)
+        let path = "/opt/homebrew/bin/rsvg-convert"
+        #endif
         
         if let data = Process.execute(path, arguments: ["-h", "1024", sourcePath, "-o", targetPath]) {
             let string = String(data: data, encoding: .utf8)
